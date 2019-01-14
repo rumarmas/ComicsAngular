@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Conceptos utilizados en el proyecto Comics Angular
 
-Creación del proyecto utilizando CLI (Command Line Interface)
+Creación del proyecto utilizando CLI (Command Line Interface) <br>
 Instalación bootstrap
 Creacion de rutas
 Uso de RouterLink y RouterLinkActive para movernos de página
