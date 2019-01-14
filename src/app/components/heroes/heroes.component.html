@@ -1,0 +1,9 @@
+<h1>Héroes <small>Marvel y DC</small></h1>
+<hr>
+<div class="card-columns" >
+  <!-- *ngFor="let heroe of heroes; let i = index" -->
+  <!-- [heroe] -> es el nombre de la variable del componente @Input -->
+  <!-- "heroe" -> es el nombre que tiene en el bucle for -->
+
+  <app-heroe-tarjeta (heroeSeleccionado)="verHeroe($event)" [heroe]="heroe" [index]="i" *ngFor="let heroe of heroes; let i = index"></app-heroe-tarjeta>
+</div>
